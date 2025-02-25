@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-char * mergeAlternately(char * word1, char * word2){
+char* mergeAlternately(char* word1, char* word2){
     int A = strlen(word1), B = strlen(word2);
     int a = 0, b = 0, index = 0;
     char* s = (char *)malloc((A + B + 1) * sizeof(char)); // Allocate memory for the merged string (+1 for null terminator)
